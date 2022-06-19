@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width:60em;
+}
+main{
+    display: block;
+    padding: 0em;
+    margin:auto;
+    width: 100vw;
+}
+
+.box-1{
+    display: block;
+    width: 80em;
+    margin:auto;
+    background-color: hsl(190, 100%, 96%);
+    background-image: url("./bg-hero-desktop.svg");
+    /* border: solid black 10px; */
+}
+
+.box-1-top {
+    width: 100%;
+     height: 180px; 
+    display: flex;
+    /* border: solid yellow 10px; */
+}
+.hudde-try1 {
+    width: 50%;
+    padding:4em;
+}
+.try{
+    padding: 6em;
+    text-align: end; 
+  
+}
+.try button{
+    padding: 0.7em;
+    border-radius: 16px;
+    width:150px;
+    border:none;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(208, 11%, 55%);
+    
+}
+
+.box-1-bottom {
+    width: 100%;
+    /* height: 12px; */
+    display: flex;
+    /* border: solid green 10px; */
+
+}
+
+.box-1-bottom-left{
+    
+    text-align: justify;
+    width:45%;
+    padding: 4em;
+}
+
+.box-1-bottom-left h1{
+margin: 1em;
+line-height: 1.7em;
+}
+
+.box-1-bottom-left p{
+    margin: 1em;
+        line-height: 1.7em;
+}
+
+.box-1-bottom-left button {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    padding:  1em;
+    border-radius: 16px;
+    width: 200px;
+    border: none;
+    background-color:hsl(322, 100%, 66%) ;
+        
+}
+.box-1-bottom-right{
+    width: 55%;
+    overflow: none;
+}
+.box-1-bottom-right img{
+   width: 90%;
+}
+
+.box-2{
+    display: block;
+        width: 80em;
+        margin: auto;
+        /* background-color: hsl(190, 100%, 96%);  */
+        /* border: solid black 10px; */
+        position: relative;
+        /* margin-bottom: 0px; */
+}
+
+.growbox{
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+    position:sticky;
+    border-style: groove;
+    display: flex;
+    border-width: 3px;
+    border-radius:6px;
+    box-shadow: gray;
+    border-color: hsl(0, 0%, 100%);
+}
+.groin{
+margin: auto;
+margin-top:2em;
+padding:1em;
+
+}
+
+.growbox-right{
+width: 60%;
+padding-bottom: 2em;
+}
+
+.growbox-right img{
+    width: 60%;
+    margin-left: 200px;
+}
+
+.growbox-left {
+    width: 40%;
+    margin: auto;
+    margin-left: 50px;
+    
+}
+.growbox-left h3 {
+    margin: 1em;
+    line-height: 1.7em;
+}
+
+.growbox-left p {
+    margin: 1em;
+    
+}
+
+.flowbox {
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+    position: sticky;
+    border-style: groove;
+    display: flex;
+    border-width: 3px;
+    border-radius: 6px;
+    box-shadow: gray;
+    border-color: hsl(0, 0%, 100%);
+}
+.floin {
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+
+}
+
+.flowbox-left {
+    width: 60%;
+    padding-bottom: 2em;
+}
+
+.flowbox-left img {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.flowbox-right {
+    width: 40%;
+    margin: auto;
+    margin-left: 50px;
+
+}
+
+.flowbox-right h3 {
+    margin: 1em;
+    line-height: 1.7em;
+}
+
+.flowbox-right p {
+    margin: 1em;
+
+}
+
+.userbox {
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+    position: sticky;
+    border-style: groove;
+    display: flex;
+    border-width: 3px;
+    border-radius: 6px;
+    box-shadow: gray;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.usoin {
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+
+}
+
+.userbox-right {
+    width: 60%;
+    padding-bottom: 2em;
+}
+
+.userbox-right img {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.userbox-left {
+    width: 40%;
+    margin: auto;
+    margin-left: 50px;
+
+}
+
+.userbox-left h3 {
+    margin: 1em;
+    line-height: 1.7em;
+}
+
+.userbox-left p {
+    margin: 1em;
+
+}
+
+.box-3{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    /* left: 25%; */
+    border-radius:6px;
+    padding: 3em;
+    background-color:rgb(368, 335, 455) ;
+    text-align: center;
+    stroke-width:12px ;
+}
+.box-3 h3 {
+    margin: 1em;
+    line-height: 1.7em;
+}
+
+.box-3 button {
+    margin-left: 1em;
+        margin-top: 0.5em;
+        padding: 1.5em;
+        border-radius: 28px;
+        width: 60%;
+        border: none;
+        background-color: hsl(322, 100%, 66%);
+        color:hsl(0, 0%, 100%) ;
+
+}
+.ftoin {
+
+    margin-top: 200px;
+    display: flex;
+    
+}
+footer{
+    background-color:hsl(192, 100%, 9%) ;
+    color: white;
+    width: 80em;
+   display: block;
+}
+
+.footer-top{
+    width: 100vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.col-1{
+    display: block;
+    width: 50%;
+    
+}
+
+.huddle-2 img{
+    background-color:hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+}
+.grid-1 {
+    display: grid;
+    padding-top: 5px;
+    grid-template-areas:
+    'a b'
+    'c d'
+    'e f'
+    ;
+    gap: 25px;
+    width: 70%;
+}
+
+.a-left{
+    grid-area: a;
+}
+.a-right{
+        grid-area: b;
+    }
+.b-left{
+        grid-area: c;
+    }
+.b-right{
+        grid-area: d;
+    }
+.c-left{
+        grid-area: e;
+    }
+.c-right{
+        grid-area: f;    }
+
+
+
+
+.grid-1{
+    display: grid;
+    padding-top: 10px;
+}
+
+.col-2{
+    display: block;
+    width: 15%;
+}
+.col-2-a{
+    padding: auto;
+
+    padding-bottom:1em;
+}
+.col-3{
+        display: block;
+        width: 15%;
+    }
+
+     .col-3-a {
+            padding: auto;
+    
+            padding-bottom: 1em;
+        }
+.col-4{
+        display: flex;
+    width: 20%;
+    }
+.col-4-a  {
+    width: 10%;
+    /* align-items:top; */
+    margin:3px;
+}
+.col-4-a img {
+    width: 100%;
+     margin-left: 100px; 
+    margin-top: 0%;
+    padding-bottom: 4em;
+
+} 
+.footer-bottom{
+    text-align: right;
+    padding-bottom: 2em;
+}
+
+
+@media screen and (max-width:){
+    
+}
