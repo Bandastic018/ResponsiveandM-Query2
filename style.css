@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 body{
     margin: 0;
     padding: 0;
@@ -68,11 +73,13 @@ main{
 .box-1-bottom-left h1{
 margin: 1em;
 line-height: 1.7em;
+font-family: 'Poppins', sans-serif;
 }
 
 .box-1-bottom-left p{
     margin: 1em;
         line-height: 1.7em;
+        font-family: 'Open Sans', sans-serif;
 }
 
 .box-1-bottom-left button {
@@ -107,7 +114,7 @@ line-height: 1.7em;
     width: 90%;
     margin: auto;
     margin-top: 4em;
-    position:sticky;
+    /* position:sticky; */
     border-style: groove;
     display: flex;
     border-width: 3px;
@@ -141,18 +148,19 @@ padding-bottom: 2em;
 .growbox-left h3 {
     margin: 1em;
     line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .growbox-left p {
     margin: 1em;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flowbox {
     width: 90%;
     margin: auto;
     margin-top: 4em;
-    position: sticky;
+    /* position: sticky; */
     border-style: groove;
     display: flex;
     border-width: 3px;
@@ -187,18 +195,19 @@ padding-bottom: 2em;
 .flowbox-right h3 {
     margin: 1em;
     line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .flowbox-right p {
     margin: 1em;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .userbox {
     width: 90%;
     margin: auto;
     margin-top: 4em;
-    position: sticky;
+    /* position:sticky; */
     border-style: groove;
     display: flex;
     border-width: 3px;
@@ -234,11 +243,12 @@ padding-bottom: 2em;
 .userbox-left h3 {
     margin: 1em;
     line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .userbox-left p {
     margin: 1em;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .box-3{
@@ -256,6 +266,7 @@ padding-bottom: 2em;
 .box-3 h3 {
     margin: 1em;
     line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .box-3 button {
@@ -280,10 +291,11 @@ footer{
     color: white;
     width: 80em;
    display: block;
+   
 }
 
 .footer-top{
-    width: 100vw;
+    width: 80vw;
     margin: auto;
     align-items: center;
     display: flex;
@@ -379,6 +391,70 @@ footer{
 }
 
 
-@media screen and (max-width:){
-    
+@media screen and (max-width:400){
+    body{
+        width:100vw;
+        overflow-x: none;
+        margin: auto;
+        display: block;
+        height: 100vh;
+    }
+    /* main{
+        width: 10%;
+    } */
+    .box-1{
+        width: 70%;
+        background-image: url("./bg-hero-mobile.svg");
+        margin: none;
+    }
+    .box-1-top{
+        width: 80%;
+        margin:none ;
+    }
+     .box-bottom{
+        width:80%;
+        margin: none;
+    }
+    .box-bottom-left{
+        width:30%;
+        margin:none;
+    }
+    .box-bottom-right{
+        width:30%;
+        margin:none;
+    }
+    .box-2{
+        width:80%;
+        display: block;
+        margin:none;
+    } 
+    .growbox{
+        width:50%;
+        margin: none;
+    }
+    .growbox-left{
+        width:25%;
+        margin:none;
+    }
+    .growbox-right{
+        width:25%;
+        margin:none;
+    }
+    .flow-box{
+        width:50%;
+        margin:none;
+    }
+    .flow-box-left{
+        width:50%;
+        margin:none;
+    }
+    .flow-box-right{
+        width:50%;
+        margin:none;
+    } 
+    footer{
+        width:60%;
+        margin:none;
+        
+    }
 }
